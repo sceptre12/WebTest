@@ -1,0 +1,202 @@
+/* 	START NAV MENU */
+nav {
+
+	margin: 100px auto;
+	text-align: center;
+}
+nav ul ul {
+	display: none; /* hides the sub menus */
+}
+
+nav ul li:hover > ul { 
+	/* the child selector makes sure only the child UL of the LI being hovered is targeted, 
+	rather than all sub menues appearing at once
+	*/
+	display: block;
+}
+
+nav ul {
+	/* Deep Sky blue*/
+	background: #00BFFF;
+	/* Medium Aqua marine , and Old Lace */
+
+	/*background: linear-gradient(top, #66CDAA 0%, #FDF5E6 100%);*/
+	 /*background: -moz-linear-gradient(top, #66CDAA 0%, #FDF5E6 100%); */
+	/*background: -webkit-linear-gradient(top, #66CDAA 0%, #FDF5E6 100%);*/
+
+
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.15); /* affects the shadow of the bar */
+	padding: 0 40px; 
+	border-radius: 100px;
+
+	
+	list-style: none;
+
+	position: relative;  /* Allows us to absolutley position the submenus according to this main nav bar */
+	
+	display: inline-table; /* condense the width of the menu to fit. */
+}
+
+nav ul li {
+	float: left;
+
+}
+
+nav ul li:hover {
+	/* light sea green */
+	/*background: #20B2AA;*/
+	/* Light coral */
+	/*background: #F08080;*/
+
+	/* Wheat - #F5DEB3*/
+	/* Coral - #FF7F50 */
+	/*background: #FFA07A;*/
+
+	/* Sienna  and slated gray*/
+/*	background: linear-gradient(top, #A0522D 0%, #708090 40%);
+	background: -moz-linear-gradient(top, #A0522D 0%, #708090 40%);
+	background: -webkit-linear-gradient(top, #A0522D 0%, #708090 40%);*/
+
+}
+nav ul li:hover a {
+	/* white */
+	color: #ffffff; 
+	/* Deep Sky blue*/
+	/*background: #00BFFF;*/
+
+}
+
+nav ul li a {
+	/* This affects the text of home, about me, contact, etc.. */ 
+	display: block; padding: 25px 20px;/* the padding between the texts in the bar */
+	font-weight: 900;
+	/*color black*/
+	/*color: #000000; */
+	color: #FFA07A; 
+	text-decoration: none;
+
+}
+nav ul ul {
+/*	background: #708090; 
+*/	
+/*This affects the background of the actual drop down list
+*/  /*AntiqueWhite 
+	background: #FAEBD7;*/
+	/*DarkSalmon*/ 
+	/*background: #E9967A;*/
+	/*coral*/
+
+	background: #FFA07A;
+	border-radius: 0px padding: 0;
+	/*the position basically affects the drop down list 
+	and the absolute makes the list inherits its parent status */
+	position:  absolute; top: 100%;
+	/*z-index: -1;*/ /*basically this puts the object ether in the back layer*/
+}
+
+nav ul ul li {
+	float: none;
+	/*border-top: 1px solid #6B626C;*/
+	/*this is the under line of all the words in the nav bar*/
+	/*border-bottom: 1px solid #575f6a;*/
+	/*changing this to absolute makes the drop down list go invisible*/ 
+	position: relative;
+}
+
+nav ul ul li a {
+	padding: 15px 40px;
+	/*This affects the color of the words on the drop list*/
+	color: #fff; 
+}
+
+/*nav ul ul li a:hover {
+	This affects the hover color for the drop down.. (there is another affecting it though)
+	background: #4b545f;
+}*/
+
+nav ul ul ul {
+	position: absolute; left: 100%; top: 0;
+}
+/* End of Nav */
+
+/* body declerations */
+
+/*body {
+	/*background-image: url("web-Pictures/WebBG.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;*/
+	/*background: url("web-Pictures/tumblr_m1uv886TmO1qbyxr0o1_500.gif")  center center fixed;
+	background-position: top;
+	background-repeat: no-repeat; */                                                   
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;*
+  -o-background-size: cover;*/
+  /*background-size: cover;*/
+  /*background-size: 100%;*/
+}
+
+ /*Okay so Right now I'm trying to make the jumbotron 
+transparent so that the background can easily be seen through it
+I also need to fix up the drop down colors from the boxes because they are off
+I need to also place the text under the title in some sort of box or container to 
+hold the text together
+*/
+
+
+.jumbotronOpacity{
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  opacity: 0.6;
+
+  background-color: #FFefd5;
+  position: relative; 
+  
+}
+.jumbotronOpacity h1 {
+  line-height: 1;
+  color: #000000;
+}
+.jumbotronOpacity p {
+  line-height: 1.4;
+
+}
+.container .jumbotronOpacity {
+
+  border-radius: 6px; 6 
+}
+@media screen and (min-width: 768px) {
+  .jumbotronOpacity {
+
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotronOpacity {
+
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotronOpacity h1 {
+
+    font-size: 63px;
+  }
+
+/* headings paragraphs attributes */
+
+h2 {
+	font: italic bold;
+}
+
+/*This would be the code which i would put inside of a div to make the moving picture a background 
+ 
+ .Background_moving{
+ background: src="web-Pictures/tumblr_m1uv886TmO1qbyxr0o1_500.gif" no-repeat center center fixed;                                                    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
