@@ -1,19 +1,38 @@
-#text{
-	z-index: 100;
-	position: absolute;
-	color: black;
-	font-size: 24px;
-	font-weight: bold;
-	left: 150px
-	top:350px;
+#Change-Position{
+	/*this id is used to bring the word 
+	to the front of the image*/
+	position: relative;
+	font-size: 170px;
+	top: -530px;
+	
+	color: white;
+	z-index: 2;
+	
 }
-#page_container{
+
+#Page_Section2
+{
+	margin-top: -490px;
+	height:100%; 
+	width:100%;
+	position: relative;
+	background-position: 100% 100%;
+    z-index: -1
+}
+
+#Page_Section1
+{
+	height:100%; 
+	width:100%;
+	position: relative;
+	background-position: 100% 100%;
+    z-index: -1
+}
+
+/*#page_container{
+	font-size: 45px;
 	height:400px;
     width:400px;
     position:relative;
-}
-#image{
- position:relative;
-    left:0;
-    top:0;
-}
+}*/
+
