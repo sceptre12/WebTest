@@ -1,6 +1,81 @@
-#Change-Position{
-	/*this id is used to bring the word 
+#First_section
+{
+	width: 100%;
+	position: relative;
+	height: 740px;
+	background: url(web-Pictures/tumblr_mxltx85GUY1qcmy8fo1_500.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#Second_section
+{
+	width: 100%;
+	position: relative;
+	height: 370px;
+	background: url(web-Pictures/tumblr_miuiexlStf1qfv89lo7_250.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+#Third_section
+{
+	width: 100%;
+	position: relative;
+	height: 1080px;
+	background: url(web-Pictures/tumblr_miuiexlStf1qfv89lo8_250.gif) no-repeat center center fixed;
+	background-size: cover;
+
+}
+#Fourth_section
+{
+	width: 100%;
+	position: relative;
+	height: 1080px;
+	background: url(web-Pictures/tumblr_mov3wpx3aW1r5h04to1_500.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+.center_Section
+{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 40%;
+	left: 50%;
+	color: red;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*this id is used to bring the word 
 	to the front of the image*/
+/*#Change-Position{
+	
 	position: relative;
 	font-size: 170px;
 	top: -530px;
@@ -8,9 +83,9 @@
 	color: white;
 	z-index: 2;
 	
-}
+}*/
 
-#Page_Section2
+/*#Page_Section2
 {
 	margin-top: -490px;
 	height:100%; 
@@ -27,7 +102,7 @@
 	height:100%; 
 	width:100%;
     z-index: -1
-}
+}*/
 
 /*#page_container{
 	font-size: 45px;
@@ -35,7 +110,7 @@
     width:400px;
     position:relative;
 }*/
-.image
+/*.image
 {
 	
 	position: relative;
@@ -60,6 +135,8 @@ body
 }
 .opener
 {
+	width: 100%;
+	height: 100%;
 	background: url(web-Pictures/tumblr_mqd8udWkGk1spx09mo1_500.jpg) top center no-repeat;
-	background-size: cover;
-}
+	background-position: top;
+}*/

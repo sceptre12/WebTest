@@ -12,18 +12,16 @@
 
 #Page_Section2
 {
-	margin-top: -490px;
+	
 	height:100%; 
 	width:100%;
-	position: relative;
+	position: static;
 	background-position: 100% 100%;
-    z-index: -1
+    z-index: -2
 }
 
 #Page_Section1
 {
-
-	
 	position: relative;
 	height:100%; 
 	width:100%;
@@ -31,10 +29,10 @@
     z-index: -1
 }
 
-/*#page_container{
+#page_container{
 	font-size: 45px;
 	height:400px;
     width:400px;
     position:relative;
-}*/
+}
 
