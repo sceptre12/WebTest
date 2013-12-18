@@ -1,6 +1,122 @@
-#Change-Position{
-	/*this id is used to bring the word 
+/*
+#page_container{
+	font-size: 45px;
+	height:400px;
+    width:400px;
+    position:relative;
+}*/
+#First_section
+{
+	width: 100%;
+	position: relative;
+	height: 740px;
+	background: url(web-Pictures/tumblr_mfjz2obSo31rqmuhto1_500.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+#Second_section
+{
+	width: 100%;
+	position: relative;
+	height: 290px;
+	
+	background-size: cover;
+}
+#Third_section
+{
+	width: 100%;
+	position: relative;
+	height: 740px;
+	background: url(web-Pictures/tumblr_mfjz2obSo31rqmuhto1_500.jpg) no-repeat center center fixed;
+	background-size: cover;
+
+}
+#Fourth_section
+{
+	width: 100%;
+	position: relative;
+	height: 740px;
+	background: url(web-Pictures/tumblr_mov3wpx3aW1r5h04to1_500.gif) no-repeat center center fixed;
+	background-size: cover;
+}
+.center_HomeSection
+{
+	position: absolute;
+	width: 100%;
+	height: 50%;
+	top: 35%;
+	left: 11%;
+	color: white;
+
+
+}
+.button_TopSection
+{
+	position: absolute;
+	width: 10%;
+	height: 10%;
+	top: 85%;
+	left: 46%;
+}
+
+div h1
+{
+	font-size: 110px;
+}
+.Section2_images
+{
+	/*height:40%;*/
+	
+	
+}
+#col1_image
+{
+	height:0px;
+	width: 0px;
+	
+	padding: 100px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+
+	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo1_250.gif) ;
+}
+#col1_image:hover
+{
+	background-image:url(web-Pictures/tumblr_miuiexlStf1qfv89lo2_250.gif) ;
+}
+#col2_image
+{
+	height:0px;
+	width: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo5_250.gif);
+	padding: 100px;
+}
+#col2_image:hover
+{
+	background-image:url(web-Pictures/tumblr_miuiexlStf1qfv89lo6_250.gif);
+}
+#col3_image
+{
+	height:0px;
+	width: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo7_250.gif);
+	padding: 100px;
+}
+#col3_image:hover
+{
+	background-image:url(web-Pictures/tumblr_miuiexlStf1qfv89lo8_250.gif);
+}
+
+/*this id is used to bring the word 
 	to the front of the image*/
+/*#Change-Position{
+	
 	position: relative;
 	font-size: 170px;
 	top: -530px;
@@ -9,8 +125,9 @@
 	z-index: 2;
 	
 }
+*/
 
-#Page_Section2
+/*#Page_Section2
 {
 	
 	height:100%; 
@@ -27,12 +144,4 @@
 	width:100%;
 	background-position: 100% 100%;
     z-index: -1
-}
-
-#page_container{
-	font-size: 45px;
-	height:400px;
-    width:400px;
-    position:relative;
-}
-
+}*/
