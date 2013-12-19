@@ -1,9 +1,31 @@
 $(document).ready(function(){
 
-		$("p").hide();
+	//navigation click actions
+	$('.scroll-link').on('click',function(event)
+		{
+			event.preventDefault();
+			var sectionID = $(this).attr("data-id");
+			scrollToID('#' + sectionID, 750);
+		});
+});
 
-		$("h1").click(function()
-			{
-				$(this).next().slideToggle(9999);
-			});
-	});
+//scroll function
+function scrollToID(id, speed)
+{
+	var offset = 50;
+	var targetOffset = $(id).offset().top - offset;
+	var mainNav = $('#mainNav');
+	$('html,body').animate({scrollTop:targetOffset}, speed);
+	if (mainNav.hasClass("open"))
+	{
+
+		mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+		mainNav.removeClass("open");
+	}
+}
+if (typeof console === "undefined")
+{
+	console = {
+		log:function(){}
+	}
+}
