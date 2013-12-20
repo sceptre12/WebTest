@@ -17,7 +17,7 @@
 {
 	width: 100%;
 	position: relative;
-	height: 290px;
+	min-height: 290px;
 	
 	background-size: cover;
 }
@@ -26,7 +26,7 @@
 	width: 100%;
 	position: relative;
 	height: 740px;
-	background: url(web-Pictures/tumblr_mfjz2obSo31rqmuhto1_500.jpg) no-repeat center center fixed;
+	background: url(web-Pictures/tumblr_mg83ngS4E61qckcjqo1_1280.jpg) no-repeat center center fixed;
 	background-size: cover;
 
 }
@@ -43,17 +43,24 @@
 	position: absolute;
 	width: 100%;
 	height: 50%;
-	top: 35%;
-	left: 11%;
+	padding-top: 21%;
+	padding-left: 3%;
 	color: white;
-
-
+	/*these cause the page to go over the normal margins*/
+	/*top: 35%;*/
+	/*left: 11%;*/
+}
+.center_HomeSection:hover
+{
+color:red;
 }
 .button_TopSection
 {
 	position: absolute;
 	width: 10%;
 	height: 10%;
+
+	/*this is causing the page to shift over to the right*/
 	top: 85%;
 	left: 46%;
 }
@@ -62,12 +69,7 @@ div h1
 {
 	font-size: 110px;
 }
-.Section2_images
-{
-	/*height:40%;*/
-	
-	
-}
+
 #col1_image
 {
 	height:0px;
@@ -76,6 +78,7 @@ div h1
 	padding: 100px;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 
 
 	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo1_250.gif) ;
@@ -90,6 +93,7 @@ div h1
 	width: 0px;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-size: cover;
 
 	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo5_250.gif);
 	padding: 100px;
@@ -104,6 +108,8 @@ div h1
 	width: 0px;
 	background-position: center;
 	background-repeat: no-repeat;
+	/*causes the images to fill the round area*/
+	background-size: cover;
 
 	background-image: url(web-Pictures/tumblr_miuiexlStf1qfv89lo7_250.gif);
 	padding: 100px;
@@ -113,6 +119,28 @@ div h1
 	background-image:url(web-Pictures/tumblr_miuiexlStf1qfv89lo8_250.gif);
 }
 
+#ThirdSec_title
+{
+	padding-top: 30px; 
+}
+.ThirdSec_Content
+{
+	background-color: #faebd7; 
+	
+
+}
+.ThirdSec_Content:hover
+{
+	background-color: #faebd7; 
+	opacity: .4;
+
+}
+#ThirdCont_container
+{
+	
+	height: 113px;
+
+}
 /*this id is used to bring the word 
 	to the front of the image*/
 /*#Change-Position{
