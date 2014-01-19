@@ -5,19 +5,31 @@
     width:400px;
     position:relative;
 }*/
+/*.navbar
+{ I would like to know how to make this slide down im guessing thats java script but what would be the place holder
+	opacity: 0;
+}
+.navbar:hover
+{
+	opacity: 1;
+}*/
 #First_section
 {
 
-	width: 100%;
+	
 	position: relative;
 	height: 740px;
 	background: url(web-Pictures/tumblr_mfjz2obSo31rqmuhto1_500.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
+.jumbotron
+{
+	margin-bottom: 0px;
+}
 #Second_section
 {
 	display:block;
-	width: 100%;
+	
 	position: relative;
 
 	min-height: 290px;
@@ -26,7 +38,7 @@
 }
 #Third_section
 {
-	width: 100%;
+	
 	position: relative;
 	min-height: 740px;
 	background: url(web-Pictures/tumblr_mg83ngS4E61qckcjqo1_1280.jpg) no-repeat center center fixed;
@@ -35,14 +47,14 @@
 }
 #Fourth_section
 {
-	width: 100%;
+	
 	position: relative;
 	height: 290px;
 	background-size: cover;
 }
 #Fifth_Section
 {
-	width: 100%;
+	
 	position: relative;
 	min-height: 740px;
 	background: url(web-Pictures/tumblr_mlzphewG1j1qmlbzfo1_500.gif) no-repeat center center ;
@@ -65,16 +77,20 @@
 {
 color:red;
 }
-.center_HomeSection
+#H1_Title
 {
-	position: absolute;
-	
-	padding-top: 22%;
-	padding-left: 3%;
+	position: relative;
+	padding-left: 50px;
+	margin-top: -35px;
 	color: white;
-	/*these cause the page to go over the normal margins*/
-	/*top: 35%;*/
-	/*left: 11%;*/
+	/*working on seperating the two titles for the home page*/
+}
+#H3_SubTitle
+{
+	padding-top: 170px;
+	position: relative;
+	padding-left: 50px;
+	color: white;
 }
 .center_HomeSection:hover
 {
@@ -91,7 +107,7 @@ color:red;
 	left: 46%;
 }
 
-div h1
+ h1
 {
 	font-size: 110px;
 }
@@ -102,6 +118,9 @@ div h1
 	width: 0px;
 	
 	padding: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -117,6 +136,8 @@ div h1
 {
 	height:0px;
 	width: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -132,6 +153,8 @@ div h1
 {
 	height:0px;
 	width: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	background-position: center;
 	background-repeat: no-repeat;
 	/*causes the images to fill the round area*/
@@ -423,6 +446,37 @@ div h1
 
 
 	background-image: url(web-Pictures/tumblr_mlw6wypTNP1rpfx57o1_500.gif) ;
+}
+
+/*Media Queries section*/
+
+@media only screen and (max-width: 700px)
+{
+	 h1
+	{
+		font-size: 72px;
+	}
+
+}
+@media only screen and (max-width: 500px)
+{
+	 h1
+	{
+		font-size: 62px;
+	}
+
+}
+@media only screen and (max-width: 450px)
+{
+	h1
+	{
+		font-size: 50px;
+	}
+	h3
+	{
+		padding-bottom: 10px;
+		font-size: 22px;
+	}
 }
 /*this id is used to bring the word 
 	to the front of the image*/
