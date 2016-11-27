@@ -1,1 +1,3 @@
-THis is the rep for my web dev stuff 
+# First Time getting into WebDevelopment
+
+Just creating and learning 
